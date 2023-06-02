@@ -34,7 +34,7 @@ resource "aws_s3_bucket" "example-1" {
   bucket = "my-tf-test-bucket-1"
 
   tags = {
-    Name        = "My bucket"
+    Name        = "My bucket-1"
     Environment = "Dev"
   }
 }
