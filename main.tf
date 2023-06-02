@@ -83,10 +83,10 @@ resource "aws_dynamodb_table" "basic-dynamodb-table" {
   }
 }
 
-provider "aws" {
-  profile = "default"
-  region  = "us-east-1"
-}
+# provider "aws" {
+#   profile = "default"
+#   region  = "us-east-1"
+# }
 data "aws_vpc" "default" {
   default = true
 }
